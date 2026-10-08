@@ -292,6 +292,20 @@ def create_population_sheet(wb, population, people, results, summaries, settings
             ws.column_dimensions[get_column_letter(progress_column)].hidden = True
             ws.column_dimensions[get_column_letter(percentage_column)].hidden = True
 
+    # Hide a venue Work Order(s) column when every employee on the sheet
+    # has a blank work-order value. The venue Full PQS column stays visible.
+    for venue in venues:
+        work_order_header = f"{venue} Work Order(s)"
+        work_order_column = headers.index(work_order_header) + 1
+
+        has_work_order_data = any(
+            bool(venue_work_orders(summary_lookup[person.sso], venue).strip())
+            for person in population_people
+        )
+
+        if not has_work_order_data:
+            ws.column_dimensions[get_column_letter(work_order_column)].hidden = True
+
     ws.freeze_panes = "A3"
     ws.auto_filter.ref = f"A2:{get_column_letter(len(headers))}{ws.max_row}"
     ws.sheet_view.showGridLines = False

@@ -36,7 +36,7 @@ Visible sheets:
 Run_PQS_Dark_Universe_Report.bat
 ```
 
-4. The runner validates the inputs, generates the workbook, saves a successful snapshot, and opens the `Output` folder.
+4.The runner validates the inputs, generates the workbook, saves a successful snapshot, and opens the `Output` folder.
 
 ## Data Sources
 

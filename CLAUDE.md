@@ -1,4 +1,4 @@
-# CLAUDE.md
+﻿# CLAUDE.md
 
 Instructions for Claude Code when working in this repository.
 
@@ -30,7 +30,7 @@ Input/
 Output/
 Archive/
 Logs/
-G:\Dev\Qual Tracker\Input\Qualification
+G:\Dev\Qual_Tracker\Input\Qualification
 ```
 
 When creating tests, use synthetic SSOs and fictional names. State clearly that test data is synthetic.
@@ -158,3 +158,4 @@ When offering save commands, provide add, commit, and push on one line:
 ```powershell
 git add <files>; git commit -m "<message>"; git push
 ```
+

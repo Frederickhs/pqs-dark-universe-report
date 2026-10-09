@@ -1,4 +1,4 @@
-# PQS Dark Universe Report
+﻿# PQS Dark Universe Report
 
 Local Python reporting solution that converts roster, qualification, exception, and IBM Maximo training data into a redesigned Excel PQS report for Dark Universe Technical Services.
 
@@ -44,17 +44,17 @@ Run_PQS_Dark_Universe_Report.bat
 
 ```text
 Input\
-├── Maximo\
-│   ├── Operations\
-│   └── Animation\
-├── Line Schedule\
-│   └── Line Schedule.xlsx
-├── Rosters\
-│   └── Animation Roster.xlsx
-├── Supervisors\
-│   └── Supervisor Roster.xlsx
-└── Exceptions\
-    └── pqs_exceptions.xlsx
+â”œâ”€â”€ Maximo\
+â”‚   â”œâ”€â”€ Operations\
+â”‚   â””â”€â”€ Animation\
+â”œâ”€â”€ Line Schedule\
+â”‚   â””â”€â”€ Line Schedule.xlsx
+â”œâ”€â”€ Rosters\
+â”‚   â””â”€â”€ Animation Roster.xlsx
+â”œâ”€â”€ Supervisors\
+â”‚   â””â”€â”€ Supervisor Roster.xlsx
+â””â”€â”€ Exceptions\
+    â””â”€â”€ pqs_exceptions.xlsx
 ```
 
 The Operations and Animation Maximo files keep their original download names. The newest `.xlsx` file in each Maximo folder is selected.
@@ -64,7 +64,7 @@ The Operations and Animation Maximo files keep their original download names. Th
 Qualification files are read directly from:
 
 ```text
-G:\Dev\Qual Tracker\Input\Qualification
+G:\Dev\Qual_Tracker\Input\Qualification
 ```
 
 The shared qualification files are not copied, renamed, moved, or archived by this project.
@@ -184,32 +184,32 @@ Input files remain untouched.
 
 ```text
 PQS Dark Universe Report\
-├── .github\
-│   └── copilot-instructions.md
-├── Config\
-│   ├── module_mapping.csv
-│   └── project_settings.json
-├── Input\                 # Private, excluded from Git
-├── Output\                # Generated, excluded from Git
-├── Archive\               # Private history, excluded from Git
-├── Logs\                  # Private logs, excluded from Git
-├── Scripts\
-│   ├── input_scanner.py
-│   ├── roster_reader.py
-│   ├── qualification_reader.py
-│   ├── maximo_reader.py
-│   ├── module_result_processor.py
-│   ├── snapshot_manager.py
-│   ├── employee_summary_processor.py
-│   └── report_generator.py
-├── Tests\
-├── Documentation\
-├── .gitignore
-├── AGENTS.md
-├── CLAUDE.md
-├── README.md
-├── requirements.txt
-└── Run_PQS_Dark_Universe_Report.bat
+â”œâ”€â”€ .github\
+â”‚   â””â”€â”€ copilot-instructions.md
+â”œâ”€â”€ Config\
+â”‚   â”œâ”€â”€ module_mapping.csv
+â”‚   â””â”€â”€ project_settings.json
+â”œâ”€â”€ Input\                 # Private, excluded from Git
+â”œâ”€â”€ Output\                # Generated, excluded from Git
+â”œâ”€â”€ Archive\               # Private history, excluded from Git
+â”œâ”€â”€ Logs\                  # Private logs, excluded from Git
+â”œâ”€â”€ Scripts\
+â”‚   â”œâ”€â”€ input_scanner.py
+â”‚   â”œâ”€â”€ roster_reader.py
+â”‚   â”œâ”€â”€ qualification_reader.py
+â”‚   â”œâ”€â”€ maximo_reader.py
+â”‚   â”œâ”€â”€ module_result_processor.py
+â”‚   â”œâ”€â”€ snapshot_manager.py
+â”‚   â”œâ”€â”€ employee_summary_processor.py
+â”‚   â””â”€â”€ report_generator.py
+â”œâ”€â”€ Tests\
+â”œâ”€â”€ Documentation\
+â”œâ”€â”€ .gitignore
+â”œâ”€â”€ AGENTS.md
+â”œâ”€â”€ CLAUDE.md
+â”œâ”€â”€ README.md
+â”œâ”€â”€ requirements.txt
+â””â”€â”€ Run_PQS_Dark_Universe_Report.bat
 ```
 
 ## Python Environment
@@ -271,3 +271,4 @@ Primary branch:
 ```text
 main
 ```
+

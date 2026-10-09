@@ -1,4 +1,4 @@
-# AGENTS.md
+﻿# AGENTS.md
 
 Repository instructions for Codex and other coding agents.
 
@@ -19,7 +19,7 @@ Before editing:
 
 - Do not commit anything under `Input`, `Output`, `Archive`, or `Logs`.
 - Do not include real names, SSOs, work-order numbers, or report extracts in tests or documentation.
-- Do not modify files in `G:\Dev\Qual Tracker\Input\Qualification`.
+- Do not modify files in `G:\Dev\Qual_Tracker\Input\Qualification`.
 - Use employee ID as the only cross-source identity key.
 - Never match by name.
 
@@ -111,3 +111,4 @@ When presenting a commit command to the user, combine all operations on one line
 ```powershell
 git add <files>; git commit -m "<message>"; git push
 ```
+

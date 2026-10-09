@@ -1,4 +1,4 @@
-# Operations Runbook
+﻿# Operations Runbook
 
 ## Weekly Run
 
@@ -21,7 +21,7 @@ Input\Maximo\Animation
 7. Confirm the shared qualification reports are current in:
 
 ```text
-G:\Dev\Qual Tracker\Input\Qualification
+G:\Dev\Qual_Tracker\Input\Qualification
 ```
 
 8. Close `PQS Dark Universe Report.xlsx` in Excel.
@@ -78,3 +78,4 @@ The system compares only to snapshots from a prior calendar date. Same-day rerun
 ## Private Data Handling
 
 Do not email, upload, or commit Input, Output, Archive, Logs, or shared qualification exports unless approved through the appropriate business process.
+

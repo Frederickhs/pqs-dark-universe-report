@@ -1,7 +1,7 @@
 {
   "project_name": "PQS Dark Universe Report",
   "output_filename": "PQS Dark Universe Report.xlsx",
-  "qualification_folder": "G:\\Dev\\Qual Tracker\\Input\\Qualification",
+  "qualification_folder": "G:\\Dev\\Qual_Tracker\\Input\\Qualification",
   "review_tasks_remaining": [
     1,
     2
